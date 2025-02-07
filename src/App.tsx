@@ -1,8 +1,12 @@
-import GlobalStyles from './styles/GlobalStyles';
+import GlobalStyles from './lib/styles/GlobalStyles';
 import { Content } from './styles';
 import avatar from './assets/images/me.jpg';
 
+import handleSkills from './lib/utils/skills';
+import WorkExperience from './components/workExperience';
+
 function App() {
+
   return (
     <>
       <GlobalStyles />
@@ -73,7 +77,7 @@ function App() {
                       Skills
                     </b>
                   </p>
-                  <section id="skills-list" className="wrap-list"></section>
+                  <section id="skills-list" className="wrap-list">{handleSkills()}</section>
                   <br />
 
                   <p className="w3-large w3-text-theme">
@@ -94,137 +98,7 @@ function App() {
             </div>
 
             <div className="w3-twothird">
-              <div className="w3-container w3-card w3-white w3-margin-bottom">
-                <h2 className="w3-text-grey w3-padding-16">
-                  <i className="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
-                  Work Experience
-                </h2>
-                <div id="cont_objective" className="w3-container">
-                  <h5 className="w3-opacity">
-                    <b>
-                      Software Engineer | Software Developer | System Analyst /
-                      Objective and Eduzz
-                    </b>
-                  </h5>
-                  <h6 className="w3-text-teal">
-                    <i className="fa fa-calendar fa-fw w3-margin-right"></i>2021 -{' '}
-                    <span className="w3-tag w3-teal w3-round">Current</span>
-                  </h6>
-                  <div className="wrap-text-description">
-                    <span className="descTxt">
-                      Development of high-performance, user-friendly web-based
-                      applications using React.js, actively participating in Agile
-                      meetings with Scrum to ensure alignment and continuous
-                      delivery. Integration with APIs and collaboration with
-                      cross-functional teams to enhance features and ensure
-                      constant product evolution.
-                    </span>
-                    <a href="#cont_objective" style={{ textDecoration: 'none' }}>
-                      {/* <div onClick={() => openPort('objective', this)} className="boxBtPlus">
-                        <i className="fa fa-plus-square-o btPlus"></i>
-                        <i className="fa fa-minus-square-o btPlus"></i>
-                      </div> */}
-                    </a>
-                  </div>
-
-                  <div id="dadosPort_objective" className="boxDadosPort"></div>
-                  <hr />
-                </div>
-                <div id="cont_playerum" className="w3-container">
-                  <h5 className="w3-opacity">
-                    <b>Software Developer / Playerum</b>
-                  </h5>
-                  <h6 className="w3-text-teal">
-                    <i className="fa fa-calendar fa-fw w3-margin-right"></i>2015 -
-                    2021
-                  </h6>
-                  <div className="wrap-text-description">
-                    <span className="descTxt">
-                      Development of web-based and mobile applications.
-                    </span>
-                    <a href="#cont_playerum" style={{ textDecoration: 'none' }}>
-                      {/* <div onClick={openPort('playerum', this)} className="boxBtPlus">
-                        <i className="fa fa-plus-square-o btPlus"></i>
-                        <i className="fa fa-minus-square-o btPlus"></i>
-                      </div> */}
-                    </a>
-                  </div>
-
-                  <div id="dadosPort_playerum" className="boxDadosPort"></div>
-                  <hr />
-                </div>
-                <div id="cont_unasus" className="w3-container">
-                  <h5 className="w3-opacity">
-                    <b>Web Developer / UNA-SUS/UERJ</b>
-                  </h5>
-                  <h6 className="w3-text-teal">
-                    <i className="fa fa-calendar fa-fw w3-margin-right"></i>2013 -
-                    2014
-                  </h6>
-                  <div className="wrap-text-description">
-                    <span className="descTxt">
-                      Development of webpages for distance learning.
-                    </span>
-                    <a href="#cont_unasus" style={{ textDecoration: 'none' }}>
-                      {/* <div onclick="openPort('unasus', this)" className="boxBtPlus">
-                        <i className="fa fa-plus-square-o btPlus"></i>
-                        <i className="fa fa-minus-square-o btPlus"></i>
-                      </div> */}
-                    </a>
-                  </div>
-                  <div id="dadosPort_unasus" className="boxDadosPort"></div>
-                  <hr />
-                </div>
-                <div className="w3-container">
-                  <h5 className="w3-opacity">
-                    <b>Remote Helpdesk / EW Informática</b>
-                  </h5>
-                  <h6 className="w3-text-teal">
-                    <i className="fa fa-calendar fa-fw w3-margin-right"></i>2014 -
-                    2015
-                  </h6>
-                  <span className="descTxt">
-                    User support, computer maintenance and network support.
-                  </span>
-                  <div id="dadosPort_2" className="boxDadosPort"></div>
-                  <hr />
-                </div>
-                <div className="w3-container">
-                  <h5 className="w3-opacity">
-                    <b>Helpdesk / BNSA</b>
-                  </h5>
-                  <h6 className="w3-text-teal">
-                    <i className="fa fa-calendar fa-fw w3-margin-right"></i>2010 -
-                    2012
-                  </h6>
-                  <span className="descTxt">
-                    User support and computer maintenance.
-                  </span>
-                  <div id="dadosPort_3" className="boxDadosPort"></div>
-                  <hr />
-                </div>
-                <div className="w3-container">
-                  <h5 className="w3-opacity">
-                    <b>
-                      Editor | Publisher | Web Designer / Mangá Pride Magazine
-                    </b>
-                  </h5>
-                  <h6 className="w3-text-teal">
-                    <i className="fa fa-calendar fa-fw w3-margin-right"></i>2011 -
-                    2014
-                  </h6>
-                  <span className="descTxt">
-                    Co-founder, editor, reviewer, and writer for an independent
-                    magazine project. Worked in several roles within the maganize,
-                    formatting issues, editing images and helping set the overall
-                    layout for publishing. Also developed the magazine's website,
-                    which included an online store to sell magazine issues and
-                    other merch, and store upgrades.
-                  </span>
-                  <div id="dadosPort_4" className="boxDadosPort"></div>
-                  <br />
-                </div>
-              </div>
+              <WorkExperience />
 
               <div className="w3-container w3-card w3-white">
                 <h2 className="w3-text-grey w3-padding-16">
