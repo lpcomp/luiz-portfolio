@@ -44,8 +44,6 @@ export const Content = styled.div`
         flex-wrap: wrap;
         flex-direction: row;
         transition: 0.2s all;
-        height: 0;
-        overflow: hidden;
     }
     .dadosPort{
         display: -webkit-box;
