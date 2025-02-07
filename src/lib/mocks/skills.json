@@ -1,0 +1,70 @@
+{
+    "languages": {
+      "title": "Languages",
+      "skills": [
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "C#"
+      ]
+    },
+    "frontEndLibs": {
+      "title": "Front-end Libraries and Frameworks",
+      "skills": [
+        "React JS",
+        "Context API",
+        "Styled-components",
+        "Material UI",
+        "AntD",
+        "React Testing Library",
+        "Jest",
+        "Next JS",
+        "JQuery",
+        "Bootstrap",
+        "Gatsby",
+        "Strapi"
+      ]
+    },
+    "frontEndTools": {
+      "title": "Front-end Tools and Technologies",
+      "skills": [
+        "HTML",
+        "CSS",
+        "WordPress"
+      ]
+    },
+    "mobileDevelopment": {
+      "title": "Mobile App Development",
+      "skills": [
+        "React Native"
+      ]
+    },
+    "backEnd": {
+      "title": "Back-end",
+      "skills": [
+        "Node JS"
+      ]
+    },
+    "projectManagement": {
+      "title": "Project Management",
+      "skills": [
+        "Kanban",
+        "Scrum"
+      ]
+    },
+    "projectVersioning": {
+      "title": "Version Control",
+      "skills": [
+        "Git"
+      ]
+    },
+    "others": {
+      "title": "Other",
+      "skills": [
+        "Gamification",
+        "Moodle",
+        "SCORM",
+        "Unity"
+      ]
+    }
+}
