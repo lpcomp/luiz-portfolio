@@ -1,0 +1,131 @@
+{
+    "objective": [
+        {
+            "titulo":"App Store - Store / Space",
+            "descricao": "Web-based storefront application with over 8,000 purchases, developed with React.js using Context API, Styled Components, Ant Design, and single tests on React Testing Library. Built relying on technical documentations to ensure a robust, efficient, and high performance app.",            
+            "link":"https://store.eduzz.com/",
+            "linkDesc":"Check out the application"
+        },
+        {
+            "titulo":"Facilities - Store / Space",
+            "descricao":"Web-based application in micro front-end architecture, allowing for each component to be used independently outside of the app store that easily integrates with the client’s solutions.",            
+            "link":"",
+            "linkDesc":""
+        },
+        {
+            "titulo":"Backoffice - Store / Space",
+            "descricao":"Web-based application to allow the users complete management of the app store, including account creation, setting access permissions and other admin features.",            
+            "link":"https://space-bo.store.eduzz.com",
+            "linkDesc":"Check out the application"
+        }
+    ],
+    "playerum": [
+        {            
+            "titulo":"Neoenergy - Environment Course",            
+            "descricao":"Front-end built in HTML, CSS, and Javascript.",            
+            "link":"https://playerdois.com.br/neoenergia/curso1/",
+            "linkDesc":"Access the course"
+        },
+        {            
+            "titulo":"Boehringer Ingelheim - Safe and mindful return",            
+            "descricao":"Developer in charge of developing the application’s entire front-end, as well as testing and integrating with the Boehringer LMS system.",
+            "link":"",
+            "linkDesc":""
+        },
+        {            
+            "titulo":"GLOBO - World Environment Day",            
+            "descricao":"In charge of programming part of the games’ and interface’s front-end and testing the application.",            
+            "link":"https://www.linkedin.com/posts/playerum_playerum-comunicacaointerna-meioambiente-activity-6674707646286700544-LQew/",
+            "linkDesc":"Check out the article"
+            
+        },
+        {            
+            "titulo":"FQM - Fumasil",            
+            "descricao":"In charge of developing part of the front-end in the web application's React Native.",
+            "link":"https://play.google.com/store/apps/details?id=com.playerum.fumasil",            
+            "linkDesc":"Check out the application"
+        },
+        {            
+            
+            "titulo":"Uber - Partner for good citizenship",            
+            "descricao":"In charge of helping build the front-end.",
+            "link":"https://www.uber.com/pt-BR/newsroom/parceiro-da-cidadania-salvador/",            
+            "linkDesc":"Check out the article"
+        },
+        {            
+            
+            "titulo":"Uber - 5-star Challenge",            
+            "descricao":"In charge of helping build, programm and integrate the game's front-end.",
+            "link":"https://www.tecmundo.com.br/mobilidade-urbana-smart-cities/128930-uber-lanca-game-melhorar-conduta-motoristas.htm",
+            "linkDesc":"Check out the article"
+            
+        },    
+        {            
+            "titulo":"Raizen - Master of Security",            
+            "descricao":"In charge of front-end and integration with the database. Security training for Raizen employees.",            
+            "link":"https://www.mestredeseguranca.com.br",
+            "linkDesc":"Check out the website"
+            
+        },  
+        {            
+            "titulo":"L'occitane au Brésil - Parallax Scrolling Website",            
+            "descricao":"In charge of developing the front-end part of the website, showing L'occitane's history and product lines in Brazil.",            
+            "link":"http://playerdois.com.br/loccitane/parallax",
+            "linkDesc":"Check out the website"
+            
+        }, 
+        {            
+            "titulo":"L'occitane au Brésil - Product website",            
+            "descricao":"In charge of developing part of the websites front-end, which comprises a list of L'occitane's products. This website is mostly used as reference and for employee training.",            
+            "link":"http://playerdois.com.br/loccitane/memento",
+            "linkDesc":"Check out the website"
+            
+        }, 
+        {            
+            "titulo":"Boehringer - Simulator",            
+            "descricao":"In charge of developing the front-end part of the simulator and integrating with the database. This simulator is mostly used for Boehringer's vendor training.",            
+            "link":"http://playerdois.com.br/loccitane/memento",
+            "linkDesc":"Check out the website"
+            
+        }, 
+        {            
+            "titulo":"CNA - CNA Garden",
+            "descricao":"Web application for CNA students' English learning.",            
+            "link":"",
+            "linkDesc":""
+        },  
+        {            
+            "titulo":"CNA - Level Up",
+            "descricao":"Web application integrated with SCORM (LMS) for teacher training.",            
+            "link":"",
+            "linkDesc":""
+        }, 
+        {            
+            "titulo":"CNA - Sales Techniques",            
+            "descricao":"Web application integrated with SCORM (LMS) for employee training.",            
+            "link":"",
+            "linkDesc":""
+        }, 
+        {            
+            "titulo":"Ri Happy - Training",            
+            "descricao":"Web application integrated with SCORM (LMS) for employee training.",            
+            "link":"",
+            "linkDesc":""
+        }  
+    ],
+    "unasus": [
+        {
+            "titulo":"UNA-SUS/UERJ - UNA-SUS/UERJ Portal",            
+            "descricao":"In charge of developing the website through WordPress and creating doctor training platforms.",            
+            "link":"http://unasus.uerj.br",
+            "linkDesc":"Check out the website"
+            
+        },
+        {
+            "titulo":"UNA-SUS/UERJ - Ear Simulator",            
+            "descricao":"In charge of developing a virtual simulator of the external and internal ear canal structure using Unity, to be used as reference by medical professionals.",            
+            "link":"",
+            "linkDesc":""
+        }
+    ]
+}
