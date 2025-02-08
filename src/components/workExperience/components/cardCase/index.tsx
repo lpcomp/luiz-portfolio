@@ -1,4 +1,4 @@
-import { Cases } from "../../../../lib/types";
+import { Cases } from "@/lib/types";
 
 const CardCase = ({currentCases, openCases, id}: {currentCases: Array<Cases>; openCases: Array<string>, id: string}) => {
   return (

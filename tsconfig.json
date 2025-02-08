@@ -7,9 +7,6 @@
   "compilerOptions": {
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "baseUrl": "./src",
-    "paths": {
-      "*": ["src/*"]
-    }
+    "baseUrl": "./"
   }
 }

@@ -1,9 +1,9 @@
-import GlobalStyles from './lib/styles/GlobalStyles';
-import { Content } from './styles';
-import avatar from './assets/images/me.jpg';
+import GlobalStyles from '@/lib/styles/GlobalStyles';
+import { Content } from '@/styles';
+import avatar from '@/assets/images/me.jpg';
 
-import handleSkills from './lib/utils/skills';
-import WorkExperience from './components/workExperience';
+import handleSkills from '@/lib/utils/skills';
+import WorkExperience from '@/components/workExperience';
 
 function App() {
 

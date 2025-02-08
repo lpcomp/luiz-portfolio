@@ -1,7 +1,7 @@
 
-import { ExperienceData } from '../../lib/types';
-import experienceData from '../../lib/mocks/experiences.json';
-import CardExpirence from "./components/cardExpirence";
+import CardExpirence from './components/cardExpirence';
+import { ExperienceData } from '@/lib/types';
+import experienceData from '@/lib/mocks/experiences.json';
 const data: ExperienceData = experienceData;
 
 const WorkExperience = () => {  

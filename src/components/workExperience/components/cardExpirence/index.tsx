@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Experience } from '../../../../lib/types/index';
-import isNotEmptyString from '../../../../lib/utils/isNotEmptyString';
+import { Experience } from '@/lib/types';
+import isNotEmptyString from '@/lib/utils/isNotEmptyString';
 import CardCase from '../cardCase';
 
 const CardExpirence = ({ experience }: {experience: Experience}) => {

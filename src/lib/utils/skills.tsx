@@ -1,5 +1,4 @@
-// import Data from '../mocks/skills.json';
-import Data from '../mocks/skills.json';
+import Data from '@/lib/mocks/skills.json';
 
 type SkillType = {
     title: string;
