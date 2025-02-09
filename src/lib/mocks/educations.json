@@ -1,0 +1,60 @@
+{
+    "educations": [
+        {
+            "id": "estacio",
+            "title": "Estácio de Sá University",
+            "start_date": "2018",
+            "end_date": "2019",
+            "description": "Technical Degree in System Development and Analysis.",
+            "cases": []
+        },
+        {
+            "id": "uerj",
+            "title": "University of the State of Rio de Janeiro",
+            "start_date": "2012",
+            "end_date": "2018",
+            "description": "Incomplete Bachelor's Degree in Computer Science.",
+            "cases": []
+        },
+        {
+            "id": "rocketseat1",
+            "title": "Rocketseat",
+            "start_date": "2022",
+            "end_date": "2022",
+            "description": "Course on Ignite.",
+            "cases": []
+        },
+        {
+            "id": "rocketseat2",
+            "title": "Rocketseat",
+            "start_date": "2020",
+            "end_date": "2020",
+            "description": "Course on GoStack.",
+            "cases": []
+        },
+        {
+            "id": "pixStudios",
+            "title": "PixStudios",
+            "start_date": "2014",
+            "end_date": "2015",
+            "description": "Course on Game Development.",
+            "cases": []
+        },
+        {
+            "id": "prepara",
+            "title": "Prepara",
+            "start_date": "2011",
+            "end_date": "2011",
+            "description": "Web Designer Course.",
+            "cases": []
+        },
+        {
+            "id": "caelum",
+            "title": "Caelum",
+            "start_date": "2010",
+            "end_date": "2010",
+            "description": "Course on Java FJ11.",
+            "cases": []
+        }
+    ]
+  }
