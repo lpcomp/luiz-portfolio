@@ -20,6 +20,32 @@ const GlobalStyles = createGlobalStyle`
     }
 
     html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+    .medium-text {
+        font-size: 0.9rem;
+    }
+
+    .wrap-list {
+        padding-left: 8px;
+    }
+    
+    .w3-third .w3-container a {
+        color: #757575 !important;
+        text-decoration: none;
+    }
+
+    .wrap-section {
+        .w3-container:last-of-type {
+            hr {
+                display: none;
+            }
+
+            .boxDadosPort {
+                margin-bottom: 40px;
+            }
+        }
+    }
+    
 `;
 
 export default GlobalStyles;
