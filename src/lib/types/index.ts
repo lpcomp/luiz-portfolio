@@ -1,25 +1,29 @@
 type Cases = {
-    title: string;
-    description: string;
-    link?: string;
-    linkDesc?: string;
+  title: string;
+  description: string;
+  link?: string;
+  linkDesc?: string;
+};
+
+type Education = Experience & {
+
 }
 
 type Experience = {
-    id: string;
-    title: string;
-    start_date: string;
-    end_date: string;
-    description: string;
-    cases: Array<Cases>
-}
+  id: string;
+  title: string;
+  start_date: string;
+  end_date: string;
+  description: string;
+  cases: Array<Cases>;
+};
 
 type ExperienceData = {
-    experiences: Experience[];
-}
+  experiences: Experience[];
+};
 
-export type {
-    ExperienceData,
-    Experience,
-    Cases
-}
+type EducationData = {
+  educations: Education[];
+};
+
+export type { ExperienceData, Experience, Cases, EducationData, Education };
