@@ -4,9 +4,10 @@ import avatar from '@/assets/images/me.jpg';
 
 import handleSkills from '@/lib/utils/skills';
 import WorkExperience from '@/components/workExperience';
+import Footer from '@/components/footer';
+import Education from '@/components/education';
 
 function App() {
-
   return (
     <>
       <GlobalStyles />
@@ -77,7 +78,9 @@ function App() {
                       Skills
                     </b>
                   </p>
-                  <section id="skills-list" className="wrap-list">{handleSkills()}</section>
+                  <section id="skills-list" className="wrap-list">
+                    {handleSkills()}
+                  </section>
                   <br />
 
                   <p className="w3-large w3-text-theme">
@@ -99,114 +102,14 @@ function App() {
 
             <div className="w3-twothird">
               <WorkExperience />
-
-              <div className="w3-container w3-card w3-white">
-                <h2 className="w3-text-grey w3-padding-16">
-                  <i className="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
-                  Education
-                </h2>
-                <div className="w3-container">
-                  <h5 className="w3-opacity">
-                    <b>Estácio de Sá University</b>
-                  </h5>
-                  <h6 className="w3-text-teal">
-                    <i className="fa fa-calendar fa-fw w3-margin-right"></i>2018 -
-                    2019
-                  </h6>
-                  <p>Technical Degree in System Development and Analysis</p>
-                  <hr />
-                </div>
-                <div className="w3-container">
-                  <h5 className="w3-opacity">
-                    <b>University of the State of Rio de Janeiro</b>
-                  </h5>
-                  <h6 className="w3-text-teal">
-                    <i className="fa fa-calendar fa-fw w3-margin-right"></i>2012 -
-                    2018
-                  </h6>
-                  <p>Incomplete Bachelor's Degree in Computer Science</p>
-                  <hr />
-                </div>
-                <div className="w3-container">
-                  <h5 className="w3-opacity">
-                    <b>Rocketseat</b>
-                  </h5>
-                  <h6 className="w3-text-teal">
-                    <i className="fa fa-calendar fa-fw w3-margin-right"></i>2022
-                  </h6>
-                  {/* <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right"></i><span className="w3-tag w3-teal w3-round">Current</span></h6> */}
-                  <p>Course on Ignite</p>
-                  <hr />
-                </div>
-                <div className="w3-container">
-                  <h5 className="w3-opacity">
-                    <b>Rocketseat</b>
-                  </h5>
-                  <h6 className="w3-text-teal">
-                    <i className="fa fa-calendar fa-fw w3-margin-right"></i>2020
-                  </h6>
-                  <p>Course on GoStack</p>
-                  <hr />
-                </div>
-                <div className="w3-container">
-                  <h5 className="w3-opacity">
-                    <b>PixStudios</b>
-                  </h5>
-                  <h6 className="w3-text-teal">
-                    <i className="fa fa-calendar fa-fw w3-margin-right"></i>2014
-                  </h6>
-                  <p>Course on Game Development</p>
-                  <hr />
-                </div>
-                <div className="w3-container">
-                  <h5 className="w3-opacity">
-                    <b>Prepara</b>
-                  </h5>
-                  <h6 className="w3-text-teal">
-                    <i className="fa fa-calendar fa-fw w3-margin-right"></i>2011
-                  </h6>
-                  <p>Web Designer Course</p>
-                  <hr />
-                </div>
-                <div className="w3-container">
-                  <h5 className="w3-opacity">
-                    <b>Caelum</b>
-                  </h5>
-                  <h6 className="w3-text-teal">
-                    <i className="fa fa-calendar fa-fw w3-margin-right"></i>2010
-                  </h6>
-                  <p>Course on Java FJ11</p>
-                  <br />
-                </div>
-              </div>
+              <Education />              
             </div>
           </div>
         </div>
 
-        <footer className="w3-container w3-teal w3-center w3-margin-top">
-          <p>Find me on social media.</p>
-          <section className="wrap-social-media">
-            <a
-              href="https://www.linkedin.com/in/luiz-paulo-ba%C3%A7al-de-vasconcelos/"
-              target="_blanck"
-            >
-              <i className="fa fa-linkedin w3-hover-opacity"></i>
-            </a>
-            <a
-              href="https://www.facebook.com/luiz.vasconcelos.16"
-              target="_blanck"
-            >
-              <i className="fa fa-facebook-official w3-hover-opacity"></i>
-            </a>
-            <a href="https://www.instagram.com/lpcomp/" target="_blanck">
-              <i className="fa fa-instagram w3-hover-opacity"></i>
-            </a>
-          </section>
-          <p>Powered by w3 and modified by me</p>
-        </footer>
+        <Footer />
       </Content>
     </>
-    
   );
 }
 
