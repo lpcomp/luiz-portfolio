@@ -1,28 +1,15 @@
+
+import { Skills } from '@/lib/types';
 import Data from '@/lib/mocks/skills.json';
+const skillsData: Skills = Data;
 
-type SkillType = {
-  title: string;
-  skills: Array<string>;
-};
-
-interface Skills {
-  languages: SkillType;
-  frontEndLibs: SkillType;
-  frontEndTools: SkillType;
-  mobileDevelopment: SkillType;
-  backEnd: SkillType;
-  projectManagement: SkillType;
-  projectVersioning: SkillType;
-  others: SkillType;
-}
-
-const handleSkills = () => {
-  const skillsData: Skills = Data;
+const ListSkills = () => {  
 
   return (
     <>
       {Object.keys(skillsData).map((category) => {
         const skillCategory = skillsData[category as keyof Skills];
+
         return (
           <section key={category}>
             <h5 aria-label={category}>{skillCategory.title}</h5>
@@ -40,4 +27,4 @@ const handleSkills = () => {
   );
 };
 
-export default handleSkills;
+export default ListSkills;

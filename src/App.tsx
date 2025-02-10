@@ -1,38 +1,21 @@
 import GlobalStyles from '@/lib/styles/GlobalStyles';
-import { Content } from '@/styles';
-import avatar from '@/assets/images/me.jpg';
-
-import handleSkills from '@/lib/utils/skills';
+import Avatar from '@/components/avatar';
 import WorkExperience from '@/components/workExperience';
-import Footer from '@/components/footer';
 import Education from '@/components/education';
+import Skills from '@/components/skills';
+import Languages from './components/languages';
+import Footer from '@/components/footer';
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <Content className="w3-light-grey">
-        <div className="w3-content w3-margin-top" style={{ maxWidth: 1400 }}>
+      <main className="w3-light-grey">
+        <div className="w3-content w3-margin-top wrap-app">
           <div className="w3-row-padding">
             <div className="w3-third">
               <div className="w3-white w3-text-grey w3-card-4">
-                <div className="w3-display-container">
-                  <img
-                    src={avatar}
-                    style={{ width: '100%' }}
-                    alt="Avatar"
-                    loading="lazy"
-                  />
-                  <div
-                    className="w3-display-bottomleft w3-container w3-text-black"
-                    style={{
-                      width: '100%',
-                      backgroundColor: 'rgba(0, 150, 136, 0.6)',
-                    }}
-                  >
-                    <h2 style={{ color: 'white' }}>Luiz Paulo</h2>
-                  </div>
-                </div>
+                <Avatar />
                 <div className="w3-container">
                   <p className="medium-text">
                     <i className="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>
@@ -72,28 +55,10 @@ function App() {
                   </a>
                   <hr />
 
-                  <p className="w3-large">
-                    <b>
-                      <i className="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>
-                      Skills
-                    </b>
-                  </p>
-                  <section id="skills-list" className="wrap-list">
-                    {handleSkills()}
-                  </section>
+                  <Skills />
                   <br />
 
-                  <p className="w3-large w3-text-theme">
-                    <b>
-                      <i className="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>
-                      Languages
-                    </b>
-                  </p>
-                  <section className="wrap-list">
-                    <p>Portuguese</p>
-                    <p>English</p>
-                    <p>Geek 😄</p>
-                  </section>
+                  <Languages />
                   <br />
                 </div>
               </div>
@@ -108,7 +73,7 @@ function App() {
         </div>
 
         <Footer />
-      </Content>
+      </main>
     </>
   );
 }
