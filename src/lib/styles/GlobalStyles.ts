@@ -3,7 +3,6 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyles = createGlobalStyle`
     :root {        
         margin: 0 auto;
-        font-synthesis: none;
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -20,6 +19,10 @@ const GlobalStyles = createGlobalStyle`
     }
 
     html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+    .wrap-app {
+        max-width: 1400px;
+    }
 
     .medium-text {
         font-size: 0.9rem;
