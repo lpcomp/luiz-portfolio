@@ -1,3 +1,19 @@
+type SkillType = {
+  title: string;
+  skills: Array<string>;
+};
+
+type Skills = {
+  languages: SkillType;
+  frontEndLibs: SkillType;
+  frontEndTools: SkillType;
+  mobileDevelopment: SkillType;
+  backEnd: SkillType;
+  projectManagement: SkillType;
+  projectVersioning: SkillType;
+  others: SkillType;
+}
+
 type Cases = {
   title: string;
   description: string;
@@ -26,4 +42,4 @@ type EducationData = {
   educations: Education[];
 };
 
-export type { ExperienceData, Experience, Cases, EducationData, Education };
+export type { Skills, ExperienceData, Experience, Cases, EducationData, Education };
