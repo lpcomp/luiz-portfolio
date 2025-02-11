@@ -1,50 +1,70 @@
-# React + TypeScript + Vite
+# Luiz Paulo - Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Sobre o Projeto
 
-Currently, two official plugins are available:
+Este é o meu portfólio pessoal, desenvolvido em **React** e **TypeScript**, utilizando **Vite** para o ambiente de desenvolvimento. O objetivo é apresentar minha experiência profissional, habilidades, formação e contatos de forma organizada e acessível.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React 18**
+- **TypeScript**
+- **Styled Components**
+- **Vite**
+- **ESLint e Prettier**
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
+## 💻 Como Rodar o Projeto
+
+### 1️⃣ Clonar o Repositório
+
+```sh
+git clone https://github.com/lpcomp/luiz-portfolio.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 2️⃣ Instalar as Dependências
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react';
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-});
+```sh
+cd luiz-portfolio
+npm install
 ```
+
+### 3️⃣ Rodar em Ambiente de Desenvolvimento
+
+```sh
+npm run dev
+```
+
+### 4️⃣ Gerar a Versão de Produção
+
+```sh
+npm run build
+```
+
+### 5️⃣ Rodar a Build Localmente
+
+```sh
+npm run preview
+```
+
+
+## 🔧 Ferramentas de Desenvolvimento
+
+O projeto conta com as seguintes ferramentas para garantir qualidade de código e boas práticas:
+
+- **ESLint**: Para análise estática de código.
+- **Prettier**: Para formatação automática do código.
+- **TypeScript**: Tipagem segura e melhor manutenção.
+
+
+## 📬 Contato
+
+📧 Email: [luizv993@gmail.com](mailto\:luizv993@gmail.com)\
+💼 LinkedIn: [linkedin.com/in/luiz-paulo](https://www.linkedin.com/in/luiz-paulo-ba%C3%A7al-de-vasconcelos/)\
+🐙 GitHub: [github.com/lpcomp](https://github.com/lpcomp)\
+📍 Localização: Rio de Janeiro, BRA
+
+
+## 📸 Captura de tela
+
+![Captura de Tela do Portfólio](src/assets/images/screenshotPortfolio.png)
