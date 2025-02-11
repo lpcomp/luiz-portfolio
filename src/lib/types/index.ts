@@ -42,4 +42,23 @@ type EducationData = {
   educations: Education[];
 };
 
-export type { Skills, ExperienceData, Experience, Cases, EducationData, Education };
+type ContactItemProps = {
+  icon: string;
+  text: string;
+  link?: string;
+};
+
+type ContactInfoComposition = {
+  Item: React.FC<ContactItemProps>;
+};
+
+export type {
+  Skills,
+  ExperienceData, 
+  Experience, 
+  Cases, 
+  EducationData, 
+  Education, 
+  ContactInfoComposition, 
+  ContactItemProps 
+};
